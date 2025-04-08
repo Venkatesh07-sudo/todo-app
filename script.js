@@ -1,4 +1,5 @@
-console.log("Change from conflict-b");
+
+console.log("Resolved both A and B changes");
 
 function addTask() {
     const input = document.getElementById("taskInput");
