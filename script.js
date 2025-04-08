@@ -1,3 +1,5 @@
+console.log("Change from conflict-b");
+
 function addTask() {
     const input = document.getElementById("taskInput");
     const task = input.value.trim();
