@@ -3,7 +3,7 @@ function addTask() {
     const task = input.value.trim();
     if (task) {
         const li = document.createElement("li");
-        li.textContent = task;
+        li.innerHTML = `${task} <button onclick="this.parentElement.remove()">🗑️</button>`;
         document.getElementById("taskList").appendChild(li);
         input.value = "";
     }
